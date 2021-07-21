@@ -1,0 +1,69 @@
+@import 'styles/common';
+
+.visesole-forminput {
+  @include font-light;
+  font-size: 18px !important;
+  line-height: 21px !important;
+
+  width: 500px;
+  height: 40px;
+
+  background: transparent !important;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  border: none !important;
+}
+
+.visesole-forminput>input {
+  @include font-light;
+  font-size: 18px !important;
+  line-height: 21px !important;
+  background: #1C222F !important;
+  border: 1px solid #1C222F !important;
+}
+
+.visesole-forminput>input::selection {
+  background: white !important;
+}
+
+.visesole-forminput>input:focus {
+  border: 1px solid #6246D4 !important;
+  border-right: none !important;
+}
+
+.visesole-forminput.input-invalid>input {
+  border: 1px solid #EA3939 !important;
+  border-right: none !important;
+}
+
+.visesole-forminput-helptext {
+  position: absolute;
+  margin-top: 15px;
+  width: 500px;
+  display: flex;
+}
+
+.helptext-white-color {
+  @include font-medium;
+  color: white !important;
+}
+
+.helptext-invalid-color {
+  @include font-medium;
+  color: #EA3939 !important;
+}
+
+.visesole-forminput-helptext>p {
+  font-size: 14px !important;
+  line-height: 17px !important;
+  border: none !important;
+  background: transparent !important;
+}
+
+.invalid-color {
+  color: #EA3939 !important;
+}
+
+.svgDanger {
+  margin-right: 3px;
+}

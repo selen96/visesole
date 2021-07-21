@@ -1,0 +1,93 @@
+@import 'styles/common';
+
+//---------laptop-----------
+.visesole-features-card {
+  width: calc(100vw * 0.19027);
+  height: calc(100vw * 0.15972);
+  padding: calc(100vw * 0.0167);
+  padding-top: calc(100vw * 0.01181);
+
+  background: #1C222F;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  margin-right: calc(100vw * 0.010417);
+  margin-bottom: calc(100vw * 0.01875);
+}
+
+.features-card-img {
+  height: calc(100vw * 0.03472);
+  text-align: center;
+  position: relative;
+}
+
+.card-img {
+  width: calc(100vw * 0.03472);
+  height: calc(100vw * 0.03472);
+  text-align: center;
+}
+
+.features-card-title {
+  margin-top: calc(100vw * 0.00694);
+  margin-bottom: calc(100vw * 0.00694);
+  text-align: center;
+
+  @include title-font;
+  font-size: calc(100vw * 0.0167) !important;
+  line-height: calc(100vw * 0.020139) !important;
+
+  color: #FFFFFF;
+}
+
+.features-card-content {
+  @include content-font;
+  text-align: center !important;
+}
+
+//---------mobile-----------
+.visesole-features-card.mobile-features-card {
+  display: flex;
+  width: calc(100vw * 0.8);
+  height: calc(100vw * 0.267);
+  padding: 0px !important;
+
+  background: #1C222F;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  margin: 4px;
+  margin-bottom: 13px;
+}
+
+.features-card-img.mobile-features-card {
+  margin-left: 20px;
+  margin-right: 30px;
+  height: 100%;
+  width: calc(100vw * 0.133);
+  position: relative;
+}
+
+.card-img.mobile-features-card {
+  width: calc(100vw * 0.133);
+  height: calc(100vw * 0.133);
+}
+
+.features-card-text.mobile-features-card {
+  right: 20px;
+  width: calc(100vw * 0.512);
+}
+
+.features-card-title.mobile-features-card {
+  margin-top: calc(100vw * 0.0267);
+  margin-bottom: calc(100vw * 0.016);
+  text-align: left;
+
+  @include title-font;
+  font-size: calc(100vw * 0.0533) !important;
+  line-height: calc(100vw * 0.064) !important;
+}
+
+.features-card-content.mobile-features-card {
+  @include content-font;
+  font-size: calc(100vw * 0.032) !important;
+  line-height: calc(100vw * 0.0373) !important;
+  text-align: left !important;
+}

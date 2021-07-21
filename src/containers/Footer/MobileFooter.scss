@@ -1,0 +1,42 @@
+@import 'styles/common';
+
+.mobile-footer {
+  position: relative;
+  height: calc(100vw * 0.33);
+  width: 100vw;
+}
+
+.ui.container.mobile-footer-container {
+  margin: 0px !important;
+  width: calc(100vw * 0.8) !important;
+}
+
+.mobile-footer-item-title {
+  @include title-font;
+  font-size: calc(100vw * 0.04267) !important;
+  line-height: calc(100vw * 0.0506) !important;
+  margin-bottom: calc(100vw * 0.0373) !important;
+}
+
+.mobile-footer-item-content {
+  margin-bottom: calc(100vw * 0.053) !important;
+  @include content-font;
+  font-size: calc(100vw * 0.0267) !important;
+  line-height: calc(100vw * 0.032) !important;
+}
+
+.mobile-footer-socials {
+  padding-left: 30px !important;
+}
+.mobile-footer-brand {
+  position: relative;
+  bottom: 0px !important;
+  width: 100vw;
+  height: 30px;
+}
+
+.mobile-footer-brand>div {
+  @include content-font;
+  font-size: calc(100vw * 0.0267) !important;
+  line-height: calc(100vw * 0.032) !important;
+}

@@ -1,0 +1,55 @@
+@import 'styles/common';
+
+.ui.container.visesole-mobile-header {}
+
+.visesole-mobile-header>.ui.segment {
+  background: transparent;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  padding-top: 0px !important;
+
+}
+
+.item.mobile-header-logo {
+  padding: 0px !important;
+}
+
+.item.mobile-header-right {
+  padding-right: 0px !important;
+  min-width: 24px !important;
+  min-height: 24px !important;
+}
+
+.item.mobile-header-right-field {
+  height: 51.19px !important;
+}
+
+.mobile-logo {
+  position: relative !important;
+  width: calc(100vw * 0.096);
+}
+
+.mobile-logo>.svgLogo {
+  width: 100% !important;
+}
+
+.visesole-mobile-header>.ui.segment {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.mobile-header-text {
+  padding-left: 0px !important;
+  @include title-font;
+  font-size: calc(100vw * 0.032) !important;
+  line-height: calc(100vw * 0.0373) !important;
+}
+
+.mobile-header-btn {
+  padding-right: 0px !important;
+  width: calc(100vw * 0.064);
+}
+
+.mobile-header-btn>.svgLogOut {
+  width: 100% !important;
+}

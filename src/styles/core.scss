@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'SF Pro Display medium';
+  font-weight: 'medium';
+  src: local('SF Pro Display'), url("../Assets/Font/SF Pro Display/SF-Pro-Display-Medium.otf") format('opentype');
+}
+
+@font-face {
+  font-family: 'SF Pro Display bold';
+  font-weight: 'bold';
+  src: local('SF Pro Display'), url("../Assets/Font/SF Pro Display/SF-Pro-Display-Bold.otf") format('opentype');
+}
+
+@font-face {
+  font-family: 'SF Pro Display light';
+  font-weight: 'light';
+  src: local('SF Pro Display'), url("../Assets/Font/SF Pro Display/SF-Pro-Display-Light.otf") format('opentype');
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #6246D4;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #8166eb;
+  border-radius: 5px;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  background-color: #171c28 !important;
+}
+
+div,
+p,
+a,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+}
+
+.fontAwesome {
+  
+}

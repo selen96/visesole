@@ -1,0 +1,80 @@
+@mixin mobile-creditform-normal-font {
+  @include font-light;
+  font-size: 14px !important;
+  line-height: 17px !important;
+}
+
+@mixin font-bold {
+  font-family: SF Pro Display bold !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.00em !important;
+  color: white !important;
+}
+
+@mixin font-medium {
+  font-family: SF Pro Display light !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.03em !important;
+  color: white !important;
+}
+
+@mixin font-light {
+  font-family: SF Pro Display light !important;
+  font-style: normal !important;
+  font-weight: 300 !important;
+  letter-spacing: 0.03em !important;
+  color: white !important;
+}
+
+@mixin content-font {
+  @include font-medium;
+  font-size: calc(100vw * 0.00972) !important;
+  line-height: calc(100vw * 0.011805) !important;
+}
+
+@mixin title-font {
+  @include font-bold;
+  font-size: calc(100vw * 0.0125) !important;
+  line-height: calc(100vw * 0.0146) !important;
+}
+
+@mixin title-font-normal {
+  @include font-medium;
+  font-size: calc(100vw * 0.0125) !important;
+  line-height: calc(100vw * 0.0146) !important;
+}
+
+@mixin text-bold {
+  @include font-bold;
+  font-size: calc(100vw * 0.033) !important;
+  line-height: calc(100vw * 0.03958) !important;
+  text-align: center !important;
+}
+
+.visesole-images {
+  position: absolute;
+  user-select: none;
+}
+
+.visesole-svglayer {
+  position: absolute;
+  user-select: none;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background-color: transparent;
+}
+
+.visesole-center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text-bold {
+  @include text-bold;
+}

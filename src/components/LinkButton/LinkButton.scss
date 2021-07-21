@@ -1,0 +1,17 @@
+@import 'styles/common';
+
+.ui.button.visesole-long-btn {
+  padding-top: 9.5px !important;
+  width: 150px !important;
+  height: 40px !important;
+  @include content-font;
+  text-align: center !important;
+  font-size: 18px !important;
+  line-height: 21px !important;
+  letter-spacing: 0.03em !important;
+  background-color: #6246D4 !important;
+
+  &:hover {
+    background-color: #4f30cd !important;
+  }
+}

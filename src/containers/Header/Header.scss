@@ -1,0 +1,109 @@
+@import 'styles/common';
+
+.ui.container.visesole-license-header {
+  width: calc(100vw * 0.8) !important;
+}
+
+.visesole-license-header>.ui.segment {
+  background: transparent;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.item.header-logo {
+  padding: 0px !important;
+}
+
+.header-logo {
+  position: relative !important;
+}
+
+.visesole-license-header>.ui.segment {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.visesole-license-activated {
+  display: flex;
+}
+
+.visesole-license-activated>p {
+  margin-left: calc(100vw * 0.00347) !important;
+  border: none !important;
+  background: transparent !important;
+}
+
+.activated>p {
+  @include content-font;
+  font-size: 18px !important;
+  line-height: 21px !important;
+  color: #77F956 !important;
+}
+
+.unactivated>p {
+  @include content-font;
+  font-size: 18px !important;
+  line-height: 21px !important;
+  color: #EA3939 !important;
+}
+
+.header-logo-text {
+  padding-left: 0px !important;
+  @include title-font;
+  font-size: 21px !important;
+  line-height: 24px !important;
+}
+
+.visesole-header-rightmenu>.item {
+  margin-left: 20px !important;
+}
+
+.visesole-header-rightmenu>.item>a {
+  @include content-font;
+  font-size: 18px !important;
+  line-height: 21px !important;
+}
+
+.item.header-logo-item {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+.header-dashboard-btn {
+  padding-right: 0px !important;
+}
+
+.svgSuccess,
+.svgDelete {
+  width: 20px !important;
+}
+
+.underline-links a {
+  position: relative;
+  display: inline-block;
+  height: 23px;
+  padding-left: 4px;
+  padding-right: 3px;
+}
+
+.underline-links a::before {
+  content: '';
+  position: absolute;
+  z-index: 0;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: white;
+  border-left: 1px solid #171c28;
+  height: 2px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.underline-links a:hover:before {
+  right: 0 !important;
+}

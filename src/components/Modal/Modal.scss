@@ -1,0 +1,70 @@
+@import 'styles/common';
+
+.visesole-modal-box {
+  width: 500px;
+  height: 300px;
+  background: #151A25;
+  border-radius: 5px;
+  position: relative;
+}
+
+.visesole-modal-box.mobile-modal {
+  width: 300px !important;
+  height: 250px !important;
+}
+
+.ui.page.dimmer {
+  background: rgba(13, 16, 24, 0.8) !important;
+}
+
+.modal-img {
+  padding-top: 50px;
+  margin-bottom: 14px;
+  text-align: center;
+  position: relative;
+}
+
+.modal-img.mobile-modal {
+  padding-top: 10px !important;
+  margin-bottom: 14px !important;
+}
+
+.svgConfetti {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+.modal-title {
+  margin-bottom: 20px;
+  text-align: center;
+  @include title-font;
+  font-size: 25px !important;
+  line-height: 30px !important;
+}
+
+.modal-content {
+  @include content-font;
+  text-align: center !important;
+  font-weight: 500 !important;
+  font-size: 18px !important;
+  line-height: 21px !important;
+}
+
+.modal-ok-btn {
+  position: absolute;
+  right: 22px !important;
+  bottom: 22px !important;
+  padding-top: 9.5px !important;
+  width: 75px !important;
+  height: 40px !important;
+  text-align: center;
+  @include content-font;
+  font-size: 18px !important;
+  line-height: 21px !important;
+  background-color: #6246D4 !important;
+
+  &:hover {
+    background-color: #4f30cd !important;
+  }
+}

@@ -1,0 +1,52 @@
+@import 'styles/common';
+
+.visesole-footer {
+  position: relative;
+  height: calc(100vw * 0.176);
+  width: 100vw;
+}
+
+.visesole-images.svgMobFooterWavebottom {
+  bottom: 0px !important;
+  width: 100vw !important;
+}
+
+.footer-img {
+  position: relative;
+}
+
+.visesole-images.svgFooterWavebottom {
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+}
+
+.footer-content {
+  position: absolute;
+  width: 100vw;
+  bottom: calc(100vw * 0.03472);
+}
+
+.footer-container {
+  width: calc(100vw * 0.5972) !important;
+}
+
+.footer-logo {
+  padding-left: calc(100vw * 0.00694);
+  position: relative !important;
+}
+
+.footer-logo>p {
+  margin-top: calc(100vw * 0.00902);
+  @include content-font;
+}
+
+.footer-item-title {
+  @include title-font;
+  margin-bottom: calc(100vw * 0.01042);
+}
+
+.footer-item-content {
+  margin-bottom: calc(100vw * 0.003472);
+  @include content-font;
+}

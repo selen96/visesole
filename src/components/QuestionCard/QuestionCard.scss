@@ -1,0 +1,62 @@
+
+@import 'styles/common';
+
+//------laptop-------------------------------
+.visesole-question-card {
+  width: calc(100vw * 0.2909);
+  height: calc(100vw * 0.1042);
+  padding: calc(100vw * 0.0173);
+  padding-top: calc(100vw * 0.01041);
+
+  background: #1C222F;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.question-card-title {
+  margin-bottom: calc(100vw * 0.00694);
+  text-align: left;
+
+  font-family: SF Pro Display bold !important;
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-size: calc(100vw * 0.0167) !important;
+  line-height: calc(100vw * 0.02013) !important;
+
+  color: #FFFFFF;
+}
+
+.question-card-content {
+  @include content-font;
+  text-align: left !important;
+}
+
+//---------mobile---------------------------------
+.visesole-question-card.mobile-faq-card {
+  width: calc(100vw * 0.8);
+  height: calc(100vw * 0.267);
+
+  background: #1C222F;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  margin-bottom: calc(100vw * 0.03467);
+  padding-top: calc(100vw * 0.0293);
+  padding-left: calc(100vw * 0.04);
+  padding-right: calc(100vw * 0.04);
+
+}
+
+.question-card-title.mobile-faq-card {
+  margin-bottom: calc(100vw * 0.016);
+  text-align: left;
+  @include title-font;
+  font-size: calc(100vw * 0.053) !important;
+  line-height: calc(100vw * 0.064) !important;
+}
+
+.question-card-content.mobile-faq-card {
+  @include content-font;
+  font-size: calc(100vw * 0.032) !important;
+  line-height: calc(100vw * 0.0373) !important;
+  text-align: left !important;
+}

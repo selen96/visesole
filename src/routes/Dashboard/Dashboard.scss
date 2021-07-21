@@ -1,0 +1,51 @@
+@import 'styles/common';
+
+.visesole-dashboard {
+  @include title-font-normal;
+  text-align: center;
+}
+
+.visesole-images {
+  position: absolute;
+  user-select: none;
+}
+
+.visesole-images.svgFilledCircle {
+  top: 0px;
+  left: 0px;
+  height: 27.22%;
+}
+
+.visesole-images.svgCircle {
+  top: 19%;
+  right: 0px;
+  height: 40.56%;
+}
+
+.visesole-images.svgWavebottom {
+  width: 100%;
+  left: 0px;
+  bottom: 0px;
+}
+
+.visesole-images.svgTopLeftLine {
+  left: 0px;
+  top: 0px;
+  height: 43.27%;
+}
+
+.visesole-images.svgDotPattern {
+  top: 38.67%;
+  height: 16%;
+  right: 8.26%;
+}
+
+.mobile-followtwitter-area {
+  position: absolute;
+  top: 480px !important;
+  width: 100%;
+}
+
+.mobile-credit-form-area {
+  margin-top: 45px !important;
+}

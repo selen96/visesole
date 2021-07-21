@@ -1,0 +1,20 @@
+@import "styles/common";
+
+.visesole-license {
+  @include title-font-normal;
+  text-align: center;
+  position: relative;
+}
+
+.visesole-images.svgLicenseBottom {
+  left: 0px;
+  top: 20%;
+  bottom: 0px;
+  width: 100%;
+  height: 80%;
+}
+
+.license-followtwitter {
+  position: absolute;
+  bottom: 11.11%;
+}

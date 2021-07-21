@@ -1,0 +1,73 @@
+@import 'styles/common';
+
+.visesole-faq {
+  position: relative;
+  height: calc(100vw * 0.625);
+  width: 100vw;
+}
+
+.visesole-images {
+  position: absolute;
+  user-select: none;
+}
+
+.visesole-images.svgQFullCircle {
+  top: 14.89%;
+  left: 12.43%;
+  height: 25.56%;
+}
+
+.visesole-images.svgQCircleRight {
+  right: 0px;
+  top: 54.44%;
+  width: 9.72%;
+}
+
+.visesole-images.svgQDotPattern {
+  top: 27.67%;
+  height: 16%;
+  left: 10.76%;
+}
+
+.faq-textarea {
+  position: absolute;
+  top: 8.33%;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 8.33%;
+}
+
+.text-light .text-bold {
+  text-align: center;
+}
+
+.text-light {
+  margin-top: 20px;
+}
+
+.text-light>div {
+  @include title-font-normal;
+  text-align: center !important;
+}
+
+.faq-grid {
+  width: calc(100vw * 0.6028);
+  height: calc(100vw * 0.36875);
+}
+
+.faq-contents {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  top: 27.67%;
+}
+
+.faq-grid>.row {
+  padding: 0px !important;
+}
+
+.faq-grid>.row>.column {
+  padding: 0px !important;
+}

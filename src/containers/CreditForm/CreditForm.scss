@@ -1,0 +1,33 @@
+@import 'styles/common';
+
+.visesole-credit-form {
+  width: 500px;
+  height: 303px;
+  background: transparent;
+}
+
+.svgLogo {
+  user-select: none;
+}
+
+.credit-segment>.ui.segment {
+  background: transparent !important;
+}
+
+.credit-segment {
+  margin-top: -70px;
+}
+
+.credit-segment>.ui.segment {
+  border: none !important;
+  box-shadow: none !important;
+  margin: none !important;
+}
+
+.credit-text {
+  @include font-bold;
+  font-size: 48px !important;
+  line-height: 57.28px !important;
+  text-align: center;
+  margin-bottom: 20px;
+}

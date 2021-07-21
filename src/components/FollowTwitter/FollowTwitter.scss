@@ -1,0 +1,27 @@
+@import 'styles/common';
+
+.visesole-followtwitter , .mobile-followtwitter {
+  display: flex;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.visesole-followtwitter>p {
+  @include font-light;
+  font-size: 18px !important;
+  line-height: 21px !important;
+  margin: 7px !important;
+}
+
+.mobile-followtwitter>p {
+  @include font-light;
+  font-size: 14px !important;
+  line-height: 17px !important;
+  margin: 7px !important;
+}
+
+.mobile-followtwitter>.svgFollowTwitter {
+  width: 24px !important;
+}

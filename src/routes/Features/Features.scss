@@ -1,0 +1,80 @@
+@import 'styles/common';
+
+.visesole-features {
+  position: relative;
+  height: calc(100vw * 0.625);
+  width: 100vw;
+}
+
+.visesole-images.svgFFullCircle {
+  top: 20.44%;
+  right: 13.26%;
+  height: 25.56%;
+}
+
+.visesole-images.svgFFilledX {
+  right: 9.58%;
+  bottom: 10.33%;
+  width: 7.57%;
+}
+
+.visesole-images.svgFX {
+  width: 4.79%;
+  top: 12.89%;
+  left: 15.56%;
+}
+
+.visesole-images.svgFCircleBig {
+  left: 0.76px;
+  bottom: 0px;
+  width: 39.16%;
+}
+
+.visesole-images.svgFDotPattern {
+  top: 18.56%;
+  height: 16%;
+  right: 10.9%;
+}
+
+.features-textarea {
+  position: absolute;
+  top: 8.33%;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 8.33%;
+}
+
+.text-light .text-bold {
+  text-align: center;
+}
+
+.text-light {
+  margin-top: 20px;
+}
+
+.text-light>div {
+  @include title-font-normal;
+  text-align: center !important;
+}
+
+.features-grid {
+  width: calc(100vw * 0.6021);
+  height: calc(100vw * 0.357);
+}
+
+.features-contents {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  top: 29.56%;
+}
+
+.features-grid>.row {
+  padding: 0px !important;
+}
+
+.features-grid>.row>.column {
+  padding: 0px !important;
+}

@@ -1,0 +1,127 @@
+@import 'styles/common';
+
+.visesole-first {
+  position: relative;
+  height: calc(100vw * 0.625);
+  width: 100vw;
+}
+
+.first-container {
+  width: calc(100vw * 0.8) !important;
+  display: flex !important;
+  position: relative;
+  margin-top: calc(100vw * 0.625 * 0.2) !important;
+}
+
+.first-textarea-splite {
+  position: relative;
+}
+
+.first-textarea {
+  position: relative;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.visesole-purchase-btn {
+  margin-top: calc(100vh * 0.033);
+  float: left;
+}
+
+.first-softarea {
+  position: relative;
+  width: 50%;
+  right: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  margin-left: calc(100vw * 0.05);
+}
+
+.first-software-box {
+  width: 100%;
+  right: 0px;
+  filter: drop-shadow(0px 10px 15px rgba(0, 0, 0, 0.25));
+}
+
+.svgHSoftware {
+  width: 100%;
+}
+
+.visesole-images.svgHCircle {
+  top: 72.22%;
+  left: 0px;
+  height: 25.56%;
+}
+
+.visesole-images.svgHCircleRight {
+  top: 28.56%;
+  right: 0px;
+  height: 66.94%;
+}
+
+.visesole-images.svgHLines {
+  width: 24.06%;
+  right: 0px;
+  bottom: 0px
+}
+
+.visesole-images.svgHX {
+  top: 16.33%;
+  left: 5.63%;
+  height: 7.67%;
+}
+
+.visesole-images.svgHDotPattern {
+  bottom: 13.67%;
+  left: 3.54%;
+  height: 16%;
+}
+
+.visesole-images.svgHCircleTop {
+  top: 0px;
+  left: 28.19%;
+  width: 19.36%;
+}
+
+.visesole-images.svgHFilledX {
+  left: 43.19%;
+  bottom: 16.56%;
+  width: 7.57%;
+}
+
+.first-text-light {
+  margin-top: 60px;
+}
+
+.first-text-light>div {
+  @include title-font-normal;
+  text-align: left !important;
+}
+
+.text-huge>div {
+  @include text-bold;
+  font-size: calc(100vw * 0.05) !important;
+  line-height: calc(100vw * 0.05) !important;
+  text-align: left !important;
+}
+
+.text-huge.text-animation {
+  height: calc(100vw * 0.043) !important;
+  margin-bottom: 30px !important;
+}
+
+.text-huge {
+  margin-bottom: calc(100vw * 0.01389);
+}
+
+.text-animation {
+  overflow: hidden !important;
+}
+
+.Tilt-svgSoftware {
+  box-shadow: 0 20px 27px rgba(0, 0, 0, 0.05);
+  transform-style: preserve-3d;
+}
